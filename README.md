@@ -25,4 +25,4 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 首页 | 请求 | toast | modal
 ---------|----------|---------|---------
- ![首页](static/screen/1.jpg) | ![toast](static/screen/3.jpg) | ![请求](static/screen/2.jpg) | ![modal](static/screen/4.jpg)
+ ![首页](static/screen/1.jpg) | ![toast](static/screen/2.jpg) | ![请求](static/screen/3.jpg) | ![modal](static/screen/4.jpg)
