@@ -1,7 +1,9 @@
 <template>
-  <div>
-    <button @click="getRequest">点击发送ping请求</button>
-    <textarea id="" cols="30" rows="10">{{result}}</textarea>
+  <div class="container">
+    <div class="inner">
+      <button @click="getRequest">点击发送ping请求</button>
+      <textarea id="" cols="30" rows="10" v-model="result"></textarea>
+    </div>
   </div>
 </template>
 
