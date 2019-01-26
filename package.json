@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "flyio": "^0.6.2",
+    "geolocation": "https://github.com/nicklin99/get-geolocation-js",
     "mpvue": "^1.0.11",
     "vuex": "^3.0.1"
   },

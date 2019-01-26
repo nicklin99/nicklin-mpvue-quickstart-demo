@@ -2803,6 +2803,10 @@ gaze@^1.0.0:
   dependencies:
     globule "^1.0.0"
 
+"geolocation@https://github.com/nicklin99/get-geolocation-js":
+  version "1.0.0"
+  resolved "https://github.com/nicklin99/get-geolocation-js#5d78038022c3a60eba3d95c8e4dc34e4c332ed36"
+
 get-caller-file@^1.0.1:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-1.0.3.tgz#f978fa4c90d1dfe7ff2d6beda2a515e713bdcf4a"

@@ -9,6 +9,12 @@
         <span class="menu-label" @click="$router.push('modal')">modal</span>
       </div>
     </div>
+    <div class="menu-section">
+      <div class="menu-title">地理位置</div>
+      <div class="menu">
+        <span class="menu-label" @click="$router.push('location')">地理位置</span>
+      </div>
+    </div>
   </div>
 </template>
 

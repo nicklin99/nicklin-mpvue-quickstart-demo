@@ -3,10 +3,16 @@
 export default {
   // app.json app全局配置
   config: {
+    permission: {
+      "scope.userLocation": {
+        "desc": "你的位置信息将用于小程序位置接口的效果展示"
+      }
+    },
     pages: [
       'pages/index/main',
       'pages/examples/toast/main',
       'pages/examples/modal/main',
+      'pages/examples/location/main',
       'pages/request/main',
       'pages/counter/main',
       'pages/examples/main'
@@ -83,29 +89,31 @@ export default {
 
 
 <style lang="scss">
-button{
+button {
   flex: none;
   margin-bottom: 10px;
 }
-.menu{
+.menu {
   border-bottom: 1px solid #eee;
   background-color: #fff;
   padding-top: 6px;
   padding-bottom: 6px;
-  
-  &-section{
+
+  &-section {
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
   }
-  &-label{
+  &-label {
     padding-left: 20px;
   }
-  &-title{
+  &-title {
     padding-left: 20px;
-    font-size: 30px;
+    font-size: 22px;
+    margin-bottom: 10px;
   }
 }
-.inner{
+.inner {
   padding: 0 15px;
   width: 100%;
   box-sizing: border-box;
