@@ -13,6 +13,7 @@ export default {
       'pages/examples/toast/main',
       'pages/examples/modal/main',
       'pages/examples/location/main',
+      'pages/examples/audio/main',
       'pages/request/main',
       'pages/counter/main',
       'pages/examples/main'
