@@ -12,6 +12,9 @@
 <script>
 import location from 'geolocation/src/wx'
 export default {
+  config: {
+    navigationBarTitleText: '获取地理位置演示'
+  },
   data () {
     return {
       location: ''

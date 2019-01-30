@@ -1,10 +1,12 @@
 <template>
-  <div class="counter-warp">
-    <p>Vuex counter：{{ count }}</p>
-    <p>
-      <button @click="increment">+</button>
-      <button @click="decrement">-</button>
-    </p>
+  <div class="counter-warp container">
+    <div class="inner">
+      <p>Vuex counter：{{ count }}</p>
+      <p>
+        <button @click="increment">+</button>
+        <button @click="decrement">-</button>
+      </p>
+    </div>
     <div @click="$router.back()" class="home">返回首页</div>
   </div>
 </template>
@@ -30,10 +32,6 @@ export default {
 </script>
 
 <style>
-.counter-warp {
-  text-align: center;
-  margin-top: 100px;
-}
 .home {
   display: inline-block;
   margin: 100px auto;

@@ -10,6 +10,9 @@
 
 <script>
 export default {
+  config: {
+    navigationBarTitleText: 'toast演示'
+  },
   methods: {
     toast () {
       this.$toast('默认toast')

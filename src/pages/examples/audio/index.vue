@@ -9,6 +9,9 @@
 
 <script>
 export default {
+  config: {
+    navigationBarTitleText: '音频播放演示'
+  },
   onLoad () {
     // 音频资源的加载类似图片加载，都是异步，在 onLoad先做加载
     this.audio = wx.createInnerAudioContext()

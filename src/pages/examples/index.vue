@@ -27,6 +27,7 @@
 <script>
 export default {
   config: {
+    navigationBarTitleText: '示例',
     backgroundColor: '#eeeeee'
   },
   onTabItemTap (item) {

@@ -10,6 +10,9 @@
 
 <script>
 export default {
+  config: {
+    navigationBarTitleText: 'modal演示'
+  },
   methods: {
     modal () {
       this.$modal('默认modal')
