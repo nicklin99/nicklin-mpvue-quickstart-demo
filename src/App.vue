@@ -14,9 +14,11 @@ export default {
       'pages/examples/modal/main',
       'pages/examples/location/main',
       'pages/examples/audio/main',
+      'pages/examples/web/banke/main',
       'pages/request/main',
       'pages/counter/main',
-      'pages/examples/main'
+      'pages/examples/main',
+      'pages/qrcode/main'
     ],
     window: {
       backgroundTextStyle: 'light',
@@ -40,6 +42,11 @@ export default {
         "iconPath": 'assets/tabbar/icon-01.png',
         "selectedIconPath": 'assets/tabbar/icon-01.png',
         "text": '网络'
+      },{
+        "pagePath": 'pages/qrcode/main',
+        "iconPath": 'assets/tabbar/icon-01.png',
+        "selectedIconPath": 'assets/tabbar/icon-01.png',
+        "text": '画布'
       },{
         "pagePath": 'pages/examples/main',
         "iconPath": 'assets/tabbar/icon-01.png',
