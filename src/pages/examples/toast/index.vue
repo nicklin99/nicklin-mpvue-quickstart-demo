@@ -4,6 +4,7 @@
       <button @click="toast">默认toast</button>
       <button @click="toast2">success icon</button>
       <button @click="toast3">loading icon</button>
+      <button @click="toast4">错误示范</button>
     </div>
   </div>
 </template>
@@ -26,6 +27,10 @@ export default {
       this.$toast('title', {
         icon: 'loading'
       })
+    },
+    toast4 () {
+      var s = null
+      this.$toast(s.message)
     }
   }
 }
